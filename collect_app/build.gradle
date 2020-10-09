@@ -16,7 +16,7 @@ ant.condition(property: 'os', value: 'unix') {
 }
 
 // Build numbers were manually set until 1067
-def LEGACY_BUILD_NUMBER_OFFSET = 1271 // plus Kobo offset
+def LEGACY_BUILD_NUMBER_OFFSET = 1272 // plus Kobo offset
 
 // Based on http://stackoverflow.com/questions/17097263#24121734
 def getMasterCommitCount = { ->
